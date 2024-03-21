@@ -19,7 +19,7 @@ body {
   right: 0;
   top: 0;
   z-index: 10;
-
+  
 }
 
 .topnav a {
@@ -34,15 +34,26 @@ body {
 
 }
 
+.category{
+  float: right;
+  text-decoration: none;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+
+}
+
+
 .topnav .search-container { /* Fixed missing period (.) before search-container */
   float: right;
 }
 
 form {
   background-color: rgb(213, 213, 213);
-  width: 500px;
+  width: 400px;
   height: 43px;
-  border-radius: 12px;
+  border-radius: 20px;
   display: flex;
   align-items: center;
 }
@@ -64,21 +75,22 @@ input {
   flex-direction: row;
   margin-top: 40px;
   width: 300px;
-  max-height: 450px;
+  /* max-height: 550px; */
   position: relative;
+  margin-bottom: 10px;
 }
 .card:hover{
   background-color: rgb(9, 9, 8);
   color: white;
   cursor: pointer;
-  transition: 0.10s;
+  transition: 0.9s;
 }
 
 .thumbnail {
   height: 350px;
   width: 300px;
   border-radius: 12px 12px 0  0;
-
+  overflow: hidden;
 }
 
 h3 {
@@ -123,10 +135,11 @@ h3 {
     width: 150px;
   }
   .thumbnail{
+    height: 100%;
     width: 150px;
   }
   form{
-    width: 120px;   
+    width: 150px;   
   }
 
 }
