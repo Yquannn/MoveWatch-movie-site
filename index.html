@@ -3,19 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>MoveWatch</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/png" href="img/favicon_io/favicon-32x32.png">
+
 </head>
 <body>
   
 
     <div class="topnav">
         <a class="active" href="index.html">MoveWatch</a>
+        <div class="category">
+          <label for="Category">Category</label>
+          <select name="cars" id="cars">
+            <option value="Tv show">Tv show</option>
+            <option value="Anime">Anime</option>
+            <option value="Action">Action</option>
+            <option value="Comedy">Comedy</option>
+          </select>
+        </div>
         <div class="search-container">
           <form role="search" id="form">
            <input type="search" id="query" name="q" placeholder="search movie...">
           </form>
         </div>
+  
     </div>
 
 
@@ -34,7 +46,7 @@
     </section>
 
 
-
+ 
   <script src="script.js"></script>
 </body>
 </html>

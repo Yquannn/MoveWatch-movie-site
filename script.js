@@ -4,6 +4,8 @@ const img_Path = 'https://image.tmdb.org/t/p/w1280';
 const search_Api = 'https://api.themoviedb.org/3/search/movie?api_key=9be47324454c40c2b6006f586ea62c5a&query=';
 
 
+
+
 const main = document.getElementById("section");
 const form = document.getElementById("form");
 const search = document.getElementById("query");
